@@ -1,8 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Button } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
 const Instructor = ({ instructor }) => {
-  const { name, img } = instructor;
+  const { id, name, img } = instructor;
+  const navigate = useNavigate();
+  const handleHire = (id) => {
+    navigate(`/instructor/${id}`);
+  };
 
   return (
     <div>
@@ -15,9 +20,12 @@ const Instructor = ({ instructor }) => {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </p>
-            <Link to="#" class="btn btn-primary">
+            <Button
+              onClick={() => handleHire(id)}
+              className="btn btn-dark text-white"
+            >
               Hire Me
-            </Link>
+            </Button>
           </div>
         </div>
       </div>

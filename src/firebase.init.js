@@ -2,12 +2,12 @@
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 const firebaseConfig = {
-  apiKey: "AIzaSyCSTo5-OVv5vntM9CKgM-YDOMVhE_O8u8c",
-  authDomain: "fitnessco-14db2.firebaseapp.com",
-  projectId: "fitnessco-14db2",
-  storageBucket: "fitnessco-14db2.appspot.com",
-  messagingSenderId: "933211622306",
-  appId: "1:933211622306:web:52dfb9d0076bc498df00fb",
+  apiKey: process.env.REACT_APP_apiKey,
+  authDomain: process.env.REACT_APP_authDomain,
+  projectId: process.env.REACT_APP_projectId,
+  storageBucket: process.env.REACT_APP_storageBucket,
+  messagingSenderId: process.env.REACT_APP_messagingSenderId,
+  appId: process.env.REACT_APP_appId,
 };
 
 // Initialize Firebase
