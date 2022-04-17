@@ -1,0 +1,74 @@
+[
+    {
+        "id" :1,
+        "name":"Michael",
+        "fee":"50",
+        "img":"https://i.ibb.co/7grxqhW/home-bg-1.jpg",
+        "desc":"Abs Work out"
+
+    },
+    {
+        "id" :2,
+        "name":"Jordan",
+        "fee":"55",
+        "img":"https://i.ibb.co/fDrsXP2/home-bg-3.jpg",
+        "desc":"Physical Training"
+
+    },
+    {
+        "id" :3,
+        "name":"Shamly",
+        "fee":"60",
+        "img":"https://i.ibb.co/N2YWZr3/trainer-3.jpg",
+        "desc":"Running"
+
+    },
+    {
+        "id" :4,
+        "name":"Ashlin",
+        "fee":"65",
+        "img":"https://i.ibb.co/VMxFqDL/trainer-1.jpg",
+        "desc":"Bicep Building"
+
+    },
+    {
+        "id" :5,
+        "name":"Nicolas",
+        "fee":"32",
+        "img":"https://i.ibb.co/pQRqx92/f-img-1.jpg",
+        "desc":"Dietry"
+
+    },
+    {
+        "id" :6,
+        "name":"Mounty",
+        "fee":"63",
+        "img":"https://i.ibb.co/x7g8k2V/f-img-2.jpg",
+        "desc":"Legs WorkOut"
+
+    },
+    {
+        "id" :7,
+        "name":"Debora",
+        "fee":"45",
+        "img":"https://i.ibb.co/mqLSP36/blog-3.jpg",
+        "desc":"Trycep Workout"
+
+    },
+    {
+        "id" :8,
+        "name":"quentin",
+        "fee":"88",
+        "img":"https://i.ibb.co/fn7TdXZ/about-img.jpg",
+        "desc":"Main Instructor"
+
+    },
+    {
+        "id" :9,
+        "name":"Aissa",
+        "fee":"68",
+        "img":"https://i.ibb.co/LnS9df0/blog-4.jpg",
+        "desc":"Maintainer"
+
+    }
+]
