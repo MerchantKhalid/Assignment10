@@ -30,7 +30,7 @@
     font-weight: bold;
     color: white;
     background-color: black;
-    border-radius: 10px;
+    border-radius: 12px;
   }
   .btn:hover {
     background-color: rgb(28, 28, 53);
